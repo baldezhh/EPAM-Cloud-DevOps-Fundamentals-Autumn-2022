@@ -27,7 +27,5 @@ case $# in
 
 1	) flags $1 ;;
 
-*	)
-	echo "Use only 1 argument"
-;;
+*	) echo "Use only 1 argument" ;;
 esac
