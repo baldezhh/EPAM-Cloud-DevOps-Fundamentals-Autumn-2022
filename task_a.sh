@@ -1,7 +1,6 @@
 #!/bin/bash
 
 show_help(){
-	echo "Nmap service have to be installed for script to work";
 	echo "Use with --all    to display all ip-adresses with hostnames";
 	echo "Use with --target to display all open TCP ports (sudo will provide more info)";
 }
