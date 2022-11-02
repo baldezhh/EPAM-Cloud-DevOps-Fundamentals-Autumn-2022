@@ -12,7 +12,7 @@ flags(){
         	echo "Starting search...";
         	#nmap -sn 192.168.0.1/24 | grep -i 'report for' | sed 's/Nmap scan report for/Found ip adress -/';
         	arp -a
-echo "Search is finished.";
+		echo "Search is finished.";
 	elif [[ $1 == "--target" ]]
 	then
         	netstat  -tulpn | grep "tcp" | grep "LISTEN";
